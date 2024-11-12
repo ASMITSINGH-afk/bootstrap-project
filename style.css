@@ -1,54 +1,73 @@
 *body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family:'Poppins' , sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
 }
 .toparea{
-    background-color:  #000080;
-    color: white;
-    text-align: center;
-    padding: 10px 0px 0px 0px;
-    font-family: 'Poppins', sans-serif;
+    background-color: #000080;
+    color: aliceblue;
+    font-style: sans-serif;
 }
-.font{
-    margin-right: 300px;
+.navbar.sticky-top {
+    top: -10px;
 }
-.logoarea{
-    background-color: #ffffff;
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 105px;
 }
-.logo-img img{
-    width: 250px;
-    margin: 0px 28px 0px 0px;
-    padding: 5px 48px;  
-}
-.nav{
-    margin-left: 80px;
-    font-family: 'Poppins', sans-serif;
-}
-.nav .nav-link{
-    margin-top: 20px;
-    margin-right: 40px;
-    padding: 20px 0;
-    color: #505050;
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color:#505050;
     font-weight: 600;
     text-transform: uppercase;
     outline: none;
-    font-size: 17px;
+	font-size:16px;
+    font-family: sans-serif;
 }
-.callbar{
-    background-color: #82AA31;
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color:#0d319f;
 }
-/* .text-center{
-    padding: 35px 24px;
-    text-align: center;
-    justify-items: center;
-    display: flex;
-} */
- .flex-shrink{
-    padding: 0px;
- }
- 
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+		line-height:32px;
+
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .3s;
+        opacity: 1;
+	
+    }
+}
 .introarea{
     background-image: linear-gradient(rgba(0,0,0,0.7)),(rgba(0,0,0,0.7));
     background-image:url('');
@@ -135,95 +154,31 @@
     width: 100px;
 }
 .coursearea{
-    background-color:rgb(209, 231, 159) ;
-}
-.coursearea h6{
+    background-color: rgb(209, 231, 159) ;
+    padding: 100px 0px 100px 0;
     text-align: center;
-    font-size: 30px;
-    font-weight: 500;
-    color: #708f29dc;
-    margin: 0;
-    padding: 80px 0px 5px;
-}
-.coursearea h1{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    color: #000080;
-    margin: 0px 0px 24px;
-}
-.coursearea p{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 900;
-}
-.container-card{
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(209, 231, 159);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 90px;
-}
-.content-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.content-section .card{
-    flex: 1;
-    margin: 20px 20px 0px 20px;
-    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
-}
-.content-section .card img{
-    width: 100%;
-    height: auto;
-}
-.content-section .card h2{
-    /* margin: 15px 0px; */
-    font-size: 28px;
-    color: #f7f7f7;
-    background-color: #002098;
-    font-family: sans-serif;
-}
-.mission{
-    background-color: #f7f7f7;
-}
-.container-jam{
-    width: 100%;
-    min-height: 100vh;
-    /* background-color: #f7f7f7; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content-img{
-    margin: 48px 0px 0px 0px;
-    padding: 85px 10px 0px 100px
-}
-.content-img img{
-    visibility: visible;
-    animation-delay: 0.1s;
-    animation-name: fadeinup;
-}
-.container-text{
-    padding: 100px 100px 0px 0px;
+    background-position: center;
+    background-size: cover;
 } 
-.container-text h2{
-    font-size: 38px jost, sans-serif;
-    color: #0c309f;
-    margin: 0px 0px 16px;
-    font-weight: 600;
+.coursearea .box-x{
+    padding: 0;
+    margin: 12px;
+}    
+.box{
+    width: 100%;
+    margin:20px 0;
+    padding: 30px 40px ;
+    border: solid 1px black;
+    background-color: #fff;
+    overflow: hidden;
 }
-.container-text .text6{
-    color:#4a4a4a;padding-bottom: 5px;border-bottom-style: solid; border-bottom-width:2px; width: fit-content; font-size:18px;
+.box img{
+    width: 100%;
+    margin: 20px 0px;
 }
-.container-text .text7{
-    color: #1b1b1b;
-    font-size: 25px;
-    padding: 0px 0px 16px;
+.box a{
+    text-decoration: none;
+    color: #754027;
 }
 .footerarea{
     background-color: #000926;
