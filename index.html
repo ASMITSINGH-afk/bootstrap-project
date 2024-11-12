@@ -3,110 +3,74 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
-        <!--toparea start-->
         <header class="toparea">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-7 col-12">
-                        <div class="font"><h6>
-                        Education Office,Jamshedpur Utilities & Service Company Ltd.</h6>
+                        <div class="ltd">
+                            <p class="td" style="font-size: .875em;padding: 8px;margin: 0px 24px 0px 50px;text-align: center;">
+                                <b>
+                                    Education Office , Jamshedpur Utilities & Service Company Ltd.
+                                </b>
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-5 col-12"><h6>
-                        jiju.thomas@jemfoundation.in, jiju.thomas@partners.tatasteel.com</h6></div>
+                    <div class="col-md-5 col-12">
+                        <p class="td" style="font-size: .875em;padding: 8px;margin: 0px 0px 0px 60px;text-align: center;">
+                            <b>
+                                jiju.thomas@jemfoundation.in, jiju.thomas@partners.tatasteel.com
+                            </b>
+                        </p>
+                    </div>
                 </div>
             </div>
         </header>
-        <!--end toparea-->
-        <!--logoarea start-->
-        <section class="logoarea">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3 col-12">
-                        <div class="logo-img">
-                            <img src="logo.jpg" alt=""> 
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+            <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                <img class="img-fluid" src="logo.jpg" alt="Image" >
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Academics</a>
+                        <div class="dropdown-menu bg-light m-0" >
+                            <a href="http://www.juscoschoolsouthpark.com/" target="_blank" class="dropdown-item">JUSCO School South Park</a>
+                            <a href="http://www.juscoschoolkadma.com/" target="_blank" class="dropdown-item">JUSCO School Kadma</a>
+                            <a href="http://kasidihhighschool.com/" target="_blank" class="dropdown-item">Kasidih High School</a>
+                            <a href="http://kmpmvc.com/" target="_blank" class="dropdown-item">KMPM Vocational College</a>
+                            
                         </div>
                     </div>
-                    <div class="col-md-7 col-12">
-                        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #F8F9FA;">
-                      <div class="container-fluid">
-                          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                              aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="nav">
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">ABOUT US</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  ACADMICES
-                                </a>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">JUSCO School South Park</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="#">JUSCO Kadma</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="#">Kasidih High School</a></li>
-                                </ul>
-                              </li>                              
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">IMAGE GALLERY</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">CONTACT US</a>
-                            </li>
-                          </ul>
-                    </div>
-                    <div class=" d-none d-lg-flex  py-3 px-lg-4 col-md-2 col-12" style="background:#82aa31; border:6px solid #82aa31;">
-                        <div class="flex-shrink-0 btn-lg-square ">
-                            <img class="img-fluid mt-3" src="call.png" alt="">
-                        </div>
-                        <div class="ps-3">
-                            <small class="text-white mb-0" style="font-size:18px; font-weight:500;">Call for Enquiry</small>
-                            <a href="tel:+91 657 6652056"><p class="text-white  mb-0" style="font-size:20px; font-weight:400; font-family:'Jost', sans-serif;">+91 657 2914620</p></a>
-                        </div>
-                    </div>
+                    <a href="image.html" class="nav-item nav-link">Image Gallery</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                 </div>
-                    <!-- <div class="col-md-3 callbar">
-                        <div class="row g-0 text-center">
-                            <div class="col-sm-6 col-md-4">
-                                <img src="" alt="">
-                            </div>
-                            <div class="col-md-6 col-md-8">
-                                    <small class="text-white mb-0">Call for Enquiry</small> 
-                                    <a href="tel:+91 657 6652056"><p class="text-white mb-0">+91 657 2914620</p></a>
-                            </div>
-                          </div>
+                
+                <div class=" d-none d-lg-flex  py-3 px-lg-4" style="background:#82aa31; border:6px solid #82aa31;">
+                    <div class="flex-shrink-0 btn-lg-square ">
+                        <img class="img-fluid mt-3" src="call.png" alt="">
                     </div>
-                </div>-->
-            </div>
-        </section>
-        <!--end logoarea-->
-        <!--menuarea start-->
-        <!-- <section class="menuarea">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
+                    <div class="ps-3">
+                        <small class="text-white mb-0" style="font-size:18px; font-weight:500;">Call for Enquiry</small>
+                        <a href="tel:+91 657 6652056"><p class="text-white  mb-0" style="font-size:24px; font-weight:500; font-family:'Jost', sans-serif;">+91 657 2914620</p></a>
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!--end menuarea-->
+            
+        </nav>
         <!--slidearea start-->
         <section class="slidearea">
             <div class="conatiner">
-                <div class="row">
                     <div class="col-md-12">
                         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators">
@@ -147,11 +111,9 @@
                             </button>
                           </div>
                     </div>
-                </div>
             </div>
         </section>
         <!--end slidearea-->
-        <!--introarea start-->
         <section class="introarea">
             <div class="conatiner">
                 <div class="row">
@@ -202,51 +164,64 @@
         <!--end introarea-->
         <!--coures start-->
         <section class="coursearea">
-            <div class="container-word">
-                        <h6>INSTITUTES</h6>
-                        <h1>OUR ACADEMICS</h1>
-                        <p>Educational institutions are not just about bricks, mortar and concrete, but about building character, enriching minds and enriching experiences that lasts a lifetime</p>
-                <div class="conatiner-card">
-                    <div class="content-section">
-                        <div class="card">
+            <div class="conatiner">
+                <div class="row box-x">
+                    <div class="col-md-12">
+                        <h6 class="font1" style="font-size: 29px;font-family: sans-serif;color: #708f29;"><b>INSTITUTES</b></h6>
+                        <h1 class="font2" style="font-family: sans-serif;color: #0d31a1;margin: 0px 0px 24px;"><b>OUR ACADEMICS</b></h1>
+                        <p class="font3" style="font-family: sans-serif;font-size: 19px;color: #353535;">"Educational institutions are not just about bricks, mortar and concrete, but about building character, enriching minds and enriching experiences that lasts a lifetime."</p>
+                    </div>
+                </div>
+                <div class="row box-x">
+                    <div class="col-md-3 col-12">
+                        <div class="box">
                             <img src="southpark.jpg" alt="">
-                            <h2>JUSCO School South Park</h2>
-                        </div>
-                        <div class="card">
+                            <h4>JUSCO School South Park</h4>
+                        </div>   
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="box">
                             <img src="kadma.jpg" alt="">
-                            <h2>JUSCO School Kadma</h2>
+                            <h4>JUSCO School Kadma</h4>
                         </div>
-                        <div class="card">
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="box">
                             <img src="kashidi2.jpg" alt="">
-                            <h2>Kasidih High School</h2>
+                            <h4>Kasidih High School</h4>
                         </div>
-                        <div class="card">
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="box">
                             <img src="kmpm.jpg" alt="">
-                            <h2>KMPM Vocational College</h2>
+                            <h4>KMPM Vocational College</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--end course-->
-        <!--jamsedji tata start-->
-        <section class="mission">
-            <div class="conatiner-jam">
-                <div class="row g-5 align-item-center">
+        <!--jamshedji start-->
+        <section class="jamshedji">
+            <div class="container">
+                <div class="row">
                     <div class="col-md-6 col-12">
-                        <div class="content-img">
-                            <img src="tata.png">
+                        <div class="img-jam">
+                            <img src="tata.png" alt="" style="padding: 50px 10px 0px 0px;margin-left: 10px;">
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
-                        <div class="container-text">
-                            <h2>Jamshedji Tata</h2>
-                            <p class="text6">
-                            3 Mar, 1839 - 19 May, 1904</p>
-                            <p class="text7">
+                        <div class="text" style="margin-top: 130px;">
+                            <h2 class="text2" style="color: #0c309f;font-family: sans-serif;font-weight: 700;font-size: 38px;margin: 0px 0px 16px;">Jamshedji Tata</h2>
+                            <p class="text6" style="color:#4a4a4a;padding-bottom: 5px;border-bottom-style: solid; border-bottom-width:2px; width: fit-content; font-size:18px;margin: 0px 0px 48px;">
+                             3 Mar, 1839 - 19 May, 1904
+                            </p>
+                            <p class="text7" style="font-size: 20px;margin: 0px 0px 16px;font-family: sans-serif;">
                                 <img src="https://www.jemfoundation.in/img/quote1.png" >
+                                
                                 There is one kind of charity common enough among us – It is that patchwork philanthropy which clothes the ragged, feeds the poor, and heals the sick. I am far from decrying the noble spirit which seeks to help a poor or suffering fellow being. However what advances a nation or a community is not so much to prop up its weakest and most helpless members, but to lift up the best and the most gifted, so as to make them of the greatest service to the country.
-                                <img src="https://www.jemfoundation.in/img/quote2.png" alt style="margin-top: -5px;"></p>
+                                <img src="https://www.jemfoundation.in/img/quote2.png" alt style="margin-top: -5px;">
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -303,6 +278,6 @@
         interval: 3000,
         touch: true
         })
-        </script>
+    </script>
     </body>
 </html>
