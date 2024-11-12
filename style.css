@@ -1,0 +1,238 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins' , sans-serif;
+}
+.toparea{
+    background-color:  #000080;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.font{
+    margin-right: 300px;
+}
+.logoarea{
+    background-color: #ffffff;
+}
+.logo-img img{
+    width: 250px;
+    margin: 0px 28px 0px 0px;
+    padding: 5px 48px;  
+}
+.nav{
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav .nav-link{
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 20px 0;
+    color: #505050;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    font-size: 17px;
+}
+.callbar{
+    background-color: #82AA31;
+}
+/* .text-center{
+    padding: 35px 24px;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+} */
+ .flex-shrink{
+    padding: 0px;
+ }
+ 
+.introarea{
+    background-image: linear-gradient(rgba(0,0,0,0.7)),(rgba(0,0,0,0.7));
+    background-image:url('');
+    padding: 100px;
+    text-align: center;
+}
+.text3{
+    color: #0D31A1;
+}
+.white-border{
+    background-color: black;
+}
+.box1{
+    width: 100%;
+    margin: 10px;
+    padding: 30px;
+    border: solid 1px black;
+    background-color: #002098;
+}
+.box1 h4{
+    color: #fff;
+    margin: 0px 0px 8px; 
+    font-weight: 900;
+}
+.box1 p{
+    color: #fff;
+}
+.box2{
+    width: 100%;
+    margin: 10px;
+    padding: 30px;
+    border: solid 1px black;
+    background-color: #82AA31;
+}
+.box2 h4{
+    color: #fff;
+    margin: 0px 0px 8px; 
+    font-weight: 900;
+}
+.box2 p{
+    color: #fff;
+}
+.box3{
+    width: 100%;
+    margin: 10px;
+    padding: 30px;
+    border: solid 1px black;
+    background-color: #F87D57;
+}
+.box3 h4{
+    color: #fff;
+    margin: 0px 0px 8px; 
+    font-weight: 900;
+}
+.box3 p{
+    color: #fff;
+}
+.box4{
+    width: 100%;
+    margin: 10px;
+    padding: 30px;
+    border: solid 1px black;
+    background-color: #3276B0;
+}
+.box4 h4{
+    color: #fff;
+    margin: 0px 0px 8px; 
+    font-weight: 900;
+}
+.box4 p{
+    color: #fff;
+    padding: 0px 0px 18px;
+}
+.box1 img{
+    width: 100px;
+}
+.box2 img{
+    width: 100px;
+}
+.box3 img{
+    width: 100px;
+}
+.box4 img{
+    width: 100px;
+}
+.coursearea{
+    background-color:rgb(209, 231, 159) ;
+}
+.coursearea h6{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #708f29dc;
+    margin: 0;
+    padding: 80px 0px 5px;
+}
+.coursearea h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000080;
+    margin: 0px 0px 24px;
+}
+.coursearea p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+}
+.container-card{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(209, 231, 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+}
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-section .card{
+    flex: 1;
+    margin: 20px 20px 0px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+}
+.content-section .card img{
+    width: 100%;
+    height: auto;
+}
+.content-section .card h2{
+    /* margin: 15px 0px; */
+    font-size: 28px;
+    color: #f7f7f7;
+    background-color: #002098;
+    font-family: sans-serif;
+}
+.mission{
+    background-color: #f7f7f7;
+}
+.container-jam{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #f7f7f7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-img{
+    margin: 48px 0px 0px 0px;
+    padding: 85px 10px 0px 100px
+}
+.content-img img{
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeinup;
+}
+.container-text{
+    padding: 100px 100px 0px 0px;
+} 
+.container-text h2{
+    font-size: 38px jost, sans-serif;
+    color: #0c309f;
+    margin: 0px 0px 16px;
+    font-weight: 600;
+}
+.container-text .text6{
+    color:#4a4a4a;padding-bottom: 5px;border-bottom-style: solid; border-bottom-width:2px; width: fit-content; font-size:18px;
+}
+.container-text .text7{
+    color: #1b1b1b;
+    font-size: 25px;
+    padding: 0px 0px 16px;
+}
+.footerarea{
+    background-color: #000926;
+    color: #86bc42;
+    padding: 60px;
+}
+.footerarea p{
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 10px;
+}
